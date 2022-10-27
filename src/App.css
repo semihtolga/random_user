@@ -5,7 +5,7 @@
   font-size: 1.2rem;
   border-radius: 5px;
   border: none;
-  background: aqua;
+  background:linear-gradient(90deg, rgba(132,172,171,0.5893271461716938) 27%, rgba(148,233,211,0.06960556844547561) 100%);
   color: rgb(129, 116, 116);
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 9px;

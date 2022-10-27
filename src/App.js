@@ -2,7 +2,7 @@ import "./App.css";
 import Card from "./components/Card";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import RingLoader from "react-spinners/RingLoader";
+import RiseLoader from "react-spinners/RiseLoader";
 
 const url = "https://randomuser.me/api/";
 
@@ -19,7 +19,7 @@ function App() {
     } finally {
       setTimeout(() => {
         setLoading(false);
-      }, 3000);
+      }, 1000);
 
       setLoading(true);
     }
@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <RingLoader color="" />;
+    return <RiseLoader color="#8AEC4F" />;
   }
 
   return (

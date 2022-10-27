@@ -8,7 +8,7 @@
 .cardContainer {
   width: 480px;
   height: 440px;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6612529002320185) 35%, rgba(0,212,255,1) 100%);
   display: grid;
   grid-template-columns: 100px 300px;
   grid-template-rows: 100px 50px 50px 50px 25px 25px;
