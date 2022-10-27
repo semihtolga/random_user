@@ -1,0 +1,30 @@
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  width: 480px;
+  height: 440px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+  display: grid;
+  grid-template-columns: 100px 300px;
+  grid-template-rows: 100px 50px 50px 50px 25px 25px;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
+
+.cardContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  grid-column: 1/3;
+}
